@@ -9,13 +9,13 @@ test('German, English and Chinese guests follow presenter and reconnect to curre
   await expect(chinese.getByRole('heading', { name: '欢迎' })).toBeVisible();
   await expect(presenter.getByRole('img', { name: /QR code for guest view/i })).toBeVisible();
   await presenter.keyboard.press('ArrowRight');
-  await expect(german.getByText(/Liebe Familie, liebe Freunde/i)).toBeVisible(); await expect(english.getByText(/Dear family, dear friends/i)).toBeVisible(); await expect(chinese.getByText(/亲爱的家人、朋友们/)).toBeVisible();
+  await expect(german.getByText(/Guten Abend zusammen/i)).toBeVisible(); await expect(english.getByText(/Good evening, everyone/i)).toBeVisible(); await expect(chinese.getByText(/大家晚上好/)).toBeVisible();
   await english.close();
-  await presenter.getByRole('combobox', { name: /Jump to section/i }).selectOption('3');
-  await expect(german.locator('.progress')).toHaveAttribute('aria-label', 'Section 3 of 28');
+  await presenter.getByRole('combobox', { name: /Jump to section/i }).selectOption('5');
+  await expect(german.locator('.progress')).toHaveAttribute('aria-label', 'Section 5 of 38');
   const reconnected = await context.newPage(); await reconnected.goto('/?lang=en');
   await expect(reconnected.getByRole('status')).toHaveText(/Connected/, { timeout: 30000 });
-  await expect(reconnected.getByText(/quite nervous about giving this speech/i)).toBeVisible({ timeout: 30000 });
+  await expect(reconnected.getByText(/at the centre of all this is Niklas/i)).toBeVisible({ timeout: 30000 });
   await context.close();
 });
 
@@ -31,6 +31,7 @@ test('guest view fits a phone viewport without page scrolling', async ({ page })
 test('presenter toolbar controls do not overlap', async ({ page }) => {
   await page.goto('/presenter/');
   const controls = page.locator('.presenter-tools > *');
+  await expect(page.getByRole('combobox', { name: 'Presenter language' })).toHaveValue('en');
   const boxes = await controls.evaluateAll(elements => elements.map(element => {
     const box = element.getBoundingClientRect();
     return { left: box.left, right: box.right, top: box.top, bottom: box.bottom };
@@ -46,18 +47,26 @@ test('presenter toolbar controls do not overlap', async ({ page }) => {
 });
 
 test('every translated speech section fits the guest viewport', async ({ browser }) => {
-  const context = await browser.newContext();
-  const guest = await context.newPage();
-  const presenter = await context.newPage();
-  await guest.goto('/?lang=zh');
-  await presenter.goto('/presenter/');
+  for (const language of ['de', 'en', 'zh']) {
+    const context = await browser.newContext();
+    const guest = await context.newPage();
+    await guest.goto(`/?lang=${language}`);
 
-  for (let section = 1; section <= 28; section += 1) {
-    await presenter.getByRole('combobox', { name: /Jump to section/i }).selectOption(String(section));
-    await expect(guest.locator('.progress')).toHaveAttribute('aria-label', `Section ${section} of 28`);
-    const sizes = await guest.evaluate(() => ({ viewport: document.documentElement.clientHeight, content: document.documentElement.scrollHeight }));
-    expect(sizes.content, `section ${section}`).toBeLessThanOrEqual(sizes.viewport + 1);
+    for (let section = 1; section <= 38; section += 1) {
+      await guest.evaluate(currentSection => {
+        const key = 'wedding-speech-demo-state:speeches/wanrong/live';
+        const value = JSON.stringify({ currentSection, updatedAt: Date.now() });
+        localStorage.setItem(key, value);
+        window.dispatchEvent(new StorageEvent('storage', { key, newValue: value }));
+      }, section);
+      await expect(guest.locator('.progress')).toHaveAttribute('aria-label', `Section ${section} of 38`);
+      const size = await guest.evaluate(() => ({
+        viewport: document.documentElement.clientHeight,
+        content: document.documentElement.scrollHeight,
+      }));
+      expect(size.content, `${language} section ${section}`).toBeLessThanOrEqual(size.viewport + 1);
+    }
+
+    await context.close();
   }
-
-  await context.close();
 });

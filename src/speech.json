@@ -1,187 +1,268 @@
 [
   {
     "id": 1,
-    "de": "Liebe Familie, liebe Freunde, liebe Gäste,",
-    "en": "Dear family, dear friends, dear guests,",
-    "zh": "亲爱的家人、朋友们、各位来宾："
+    "source": "Good evening, everyone. Looking around the room tonight, I find something pretty extraordinary.",
+    "de": "Guten Abend zusammen. Wenn ich mich heute Abend hier im Raum umschaue, finde ich etwas ziemlich Außergewöhnliches.",
+    "en": "Good evening, everyone. Looking around the room tonight, I find something pretty extraordinary.",
+    "zh": "大家晚上好。今晚环顾这个房间，我觉得眼前的一切非常特别。"
   },
   {
     "id": 2,
-    "de": "zuerst einmal: Danke, dass ihr heute hier seid und diesen besonderen Tag mit uns feiert. Wenn ich mich umschaue, sehe ich viele Menschen, die uns auf ganz unterschiedliche Weise begleitet haben. Jeder von euch trägt dazu bei, dass dieser Tag für uns so besonders ist.",
-    "en": "First of all, thank you for being here today and celebrating this special day with us. As I look around, I see so many people who have supported us in many different ways. Every one of you helps make this day so special for us.",
-    "zh": "首先，感谢大家今天来到这里，与我们共同庆祝这个特别的日子。环顾四周，我看到许多人曾以各种不同的方式陪伴和支持着我们。正是因为在座的每一位，这一天对我们而言才如此特别。"
+    "source": "Some of you came from Germany, some from China, some from Sweden. Some of you can't even understand each other.",
+    "de": "Einige von euch sind aus Deutschland gekommen, einige aus China und einige aus Schweden. Manche von euch können sich nicht einmal miteinander verständigen.",
+    "en": "Some of you came from Germany, some from China, some from Sweden. Some of you can't even understand each other.",
+    "zh": "有些人来自德国，有些来自中国，还有些来自瑞典。你们当中有些人甚至无法听懂彼此的语言。"
   },
   {
     "id": 3,
-    "de": "Ich gebe zu: Vor dieser Rede hatte ich großen Respekt. Es ist gar nicht so leicht, in wenigen Minuten zu sagen, was Wanrong mir bedeutet.",
-    "en": "I have to admit: I was quite nervous about giving this speech. It is not easy to put into just a few minutes what Wanrong means to me.",
-    "zh": "我得承认：准备这篇致辞时，我心里一直非常忐忑。要在短短几分钟里说清婉蓉对我意味着什么，真的并不容易。"
+    "source": "And yet, you travelled all this way to a tiny town in eastern Germany to celebrate this special moment with Niklas and me.",
+    "de": "Und trotzdem seid ihr alle bis in eine kleine Stadt im Osten Deutschlands gereist, um diesen besonderen Moment mit Niklas und mir zu feiern.",
+    "en": "And yet, you travelled all this way to a tiny town in eastern Germany to celebrate this special moment with Niklas and me.",
+    "zh": "可你们还是远道而来，来到德国东部这个小镇，与我和 Niklas 一起庆祝这个特别的时刻。"
   },
   {
     "id": 4,
-    "de": "Fünf Minuten sind erstaunlich kurz, wenn man über die Frau sprechen soll, mit der man sein Leben verbringen möchte – aber erstaunlich lang, wenn alle einen dabei ansehen.",
-    "en": "Five minutes is surprisingly short when you are meant to speak about the woman you want to spend your life with—but surprisingly long when everyone is watching you do it.",
-    "zh": "当你要讲述那个想与之共度一生的女人时，五分钟短得出奇；可当所有人都注视着你时，五分钟又长得出奇。"
+    "source": "For that, I'm truly grateful. Your attendance also made hiring a DJ reasonable, so thank you for that as well.",
+    "de": "Dafür bin ich euch wirklich dankbar. Und dank euch hat es sich auch gelohnt, einen DJ zu engagieren – also auch dafür vielen Dank.",
+    "en": "For that, I'm truly grateful. Your attendance also made hiring a DJ reasonable, so thank you for that as well.",
+    "zh": "对此，我真的非常感谢大家。而且因为有你们的到来，请一位 DJ 也终于显得很合理了，所以这一点也要谢谢大家。"
   },
   {
     "id": 5,
-    "de": "Wanrong und ich haben uns online kennengelernt. Am Anfang waren es nur Nachrichten, doch daraus wurden immer längere Gespräche.",
-    "en": "Wanrong and I met online. At first, we only exchanged messages, but those messages gradually turned into longer and longer conversations.",
-    "zh": "婉蓉和我是在网上认识的。起初只是一些消息，后来我们的交谈变得越来越长。"
+    "source": "And, of course, at the centre of all this is Niklas.",
+    "de": "Und natürlich steht im Mittelpunkt von all dem Niklas.",
+    "en": "And, of course, at the centre of all this is Niklas.",
+    "zh": "当然，这一切的中心是 Niklas。"
   },
   {
     "id": 6,
-    "de": "Über mehrere Monate lernten wir uns so immer besser kennen. Damals konnte ich noch nicht ahnen, dass ich eines Tages hier stehen und auf unserer Hochzeit davon erzählen würde.",
-    "en": "Over the course of several months, we got to know each other better and better. Back then, I could never have imagined that one day I would be standing here, telling this story at our wedding.",
-    "zh": "就这样，几个月里我们越来越了解彼此。那时的我还无法想象，有一天我会站在这里，在我们的婚礼上讲起这段故事。"
+    "source": "One of the things I admire about Niklas is how easily he finds joy in the things he loves. When something captures his interest, he gives it his complete attention and enjoys it with an almost childlike excitement.",
+    "de": "Was ich an ihm bewundere, ist, wie leicht er Freude an den Dingen findet, die er liebt. Wenn etwas sein Interesse weckt, widmet er ihm seine ganze Aufmerksamkeit und freut sich darüber mit einer fast kindlichen Begeisterung.",
+    "en": "One of the things I admire about Niklas is how easily he finds joy in the things he loves. When something captures his interest, he gives it his complete attention and enjoys it with an almost childlike excitement.",
+    "zh": "我很欣赏他的一点，就是他总能轻易地从自己热爱的事物中找到快乐。一旦有什么吸引了他的兴趣，他就会全心投入，带着近乎孩子般的兴奋去享受它。"
   },
   {
     "id": 7,
-    "de": "Als Wanrong für ihr Studium nach Deutschland kam, holte ich sie morgens um sechs am Flughafen ab. Für ein erstes persönliches Treffen ist das vielleicht nicht die klassische Uhrzeit oder Ort.",
-    "en": "When Wanrong came to Germany for her studies, I picked her up at the airport at six in the morning. Perhaps not the most conventional time or place for a first meeting in person.",
-    "zh": "婉蓉来德国留学时，我早上六点去机场接她。对于第一次见面来说，这大概算不上最常见的时间和地点。"
+    "source": "Unfortunately, some of those things can be quite expensive.",
+    "de": "Leider können manche dieser Dinge ziemlich teuer sein.",
+    "en": "Unfortunately, some of those things can be quite expensive.",
+    "zh": "遗憾的是，其中有些爱好可能相当昂贵。"
   },
   {
     "id": 8,
-    "de": "Aber als sie dort vor mir stand, war ich auf einmal hellwach. Nach all den Monaten des Schreibens stand endlich der Mensch vor mir, der mir längst so vertraut geworden war. Dieser Morgen war der Anfang von allem, was wir seitdem gemeinsam erlebt haben.",
-    "en": "But the moment she stood there in front of me, I was wide awake. After all those months of writing, the person who had already become so familiar to me was finally standing right there. That morning was the beginning of everything we have experienced together since.",
-    "zh": "但当她真的站在我面前时，我一下子彻底清醒了。经过几个月的通信，那个早已让我感到无比熟悉的人，终于真真切切地站在了眼前。那个清晨，成为了此后我们共同经历的一切的起点。"
+    "source": "This is a man who can spend a significant amount of money on a car or a racing simulator, but wore the same thin winter jacket for ten years while being cold every single winter.",
+    "de": "Das ist ein Mann, der eine beträchtliche Summe für ein Auto oder einen Rennsimulator ausgeben kann, aber zehn Jahre lang dieselbe dünne Winterjacke getragen und jeden einzelnen Winter darin gefroren hat.",
+    "en": "This is a man who can spend a significant amount of money on a car or a racing simulator, but wore the same thin winter jacket for ten years while being cold every single winter.",
+    "zh": "这个男人可以花一大笔钱买车或赛车模拟器，却能把同一件薄薄的冬衣穿上十年，并且每个冬天都冻得发冷。"
   },
   {
     "id": 9,
-    "de": "Wanrong möchte eigentlich immer rausgehen und laufen. Mal in die Stadt, mal auf den Feldberg, den wir inzwischen bestimmt schon zehnmal hochgelaufen sind.",
-    "en": "Wanrong almost always wants to go out for a walk—sometimes into town, sometimes up the Feldberg, which by now we must have climbed at least ten times.",
-    "zh": "婉蓉总是喜欢出门走走。有时去城里，有时去费尔德山——到现在，我们大概已经爬过十次了。"
+    "source": "Eventually, I bought him a new one. So now he has a racing simulator and adequate protection from the German winter. You're welcome, babe.",
+    "de": "Irgendwann habe ich ihm schließlich eine neue gekauft. Jetzt hat er also einen Rennsimulator und einen angemessenen Schutz vor dem deutschen Winter. Gern geschehen, Schatz.",
+    "en": "Eventually, I bought him a new one. So now he has a racing simulator and adequate protection from the German winter. You're welcome, babe.",
+    "zh": "最后，我给他买了一件新的。所以现在，他既有赛车模拟器，也终于有了足够抵御德国寒冬的装备。不用谢，亲爱的。"
   },
   {
     "id": 10,
-    "de": "Ich gebe zu: Ich habe nicht jedes Mal sofort genauso viel Lust darauf wie sie. Aber sie schafft es, mich vom Bildschirm weg und raus an die frische Luft zu bekommen. Und meistens bin ich hinterher froh darüber.",
-    "en": "I admit that I am not always quite as enthusiastic about it as she is—at least not right away. But she manages to pull me away from my screen and get me out into the fresh air. And afterwards, I am usually glad she did.",
-    "zh": "我得承认，我并不是每次一开始都像她那么有兴致。但她总有办法把我从屏幕前拉开，带到户外呼吸新鲜空气。而且事后，我通常都很庆幸自己跟她一起去了。"
+    "source": "Niklas is also probably one of the least confrontational people I know. But apparently, there are exceptions.",
+    "de": "Niklas ist wahrscheinlich auch einer der konfliktscheuesten Menschen, die ich kenne. Aber offenbar gibt es Ausnahmen.",
+    "en": "Niklas is also probably one of the least confrontational people I know. But apparently, there are exceptions.",
+    "zh": "Niklas 大概也是我认识的人里最不喜欢与人起冲突的一个。不过，显然也有例外。"
   },
   {
     "id": 11,
-    "de": "Allerdings haben sich heute meine vielen Stunden vor dem Bildschirm tatsächlich ausgezahlt: Um diese Rede parallel in drei Sprachen zu halten, waren meine IT Skills dann doch ziemlich hilfreich.",
-    "en": "Today, however, all those hours in front of a screen have actually paid off: my IT skills turned out to be rather useful for delivering this speech in three languages at the same time.",
-    "zh": "不过今天，我花在屏幕前的那些时间总算真的派上了用场：为了让这篇致辞能够同步以三种语言呈现，我的 IT 技能还是相当有帮助的。"
+    "source": "One snowy day, a driver passed us without slowing down and splashed dirty water all over me. I saw Niklas suddenly walking towards the car and thought he was going to confront the driver. He wasn't.",
+    "de": "An einem verschneiten Tag fuhr ein Autofahrer an uns vorbei, ohne langsamer zu werden, und spritzte mich von oben bis unten mit schmutzigem Wasser voll. Ich sah, wie Niklas plötzlich auf das Auto zuging, und dachte, er würde den Fahrer zur Rede stellen. Tat er aber nicht.",
+    "en": "One snowy day, a driver passed us without slowing down and splashed dirty water all over me. I saw Niklas suddenly walking towards the car and thought he was going to confront the driver. He wasn't.",
+    "zh": "一个下雪天，一名司机从我们身边驶过，丝毫没有减速，把脏水溅了我一身。我看到 Niklas 突然朝那辆车走去，还以为他要去找司机理论。结果并没有。"
   },
   {
     "id": 12,
-    "de": "Was ich an Wanrong besonders liebe, ist ihre fürsorgliche und liebevolle Art. Bei ihr fühlt man sich verstanden und aufgehoben.",
-    "en": "What I especially love about Wanrong is how caring and loving she is. With her, you feel understood, safe, and at home.",
-    "zh": "我尤其爱婉蓉体贴而温柔的性格。和她在一起，你会感到被理解、被关心，也感到安心。"
+    "source": "He quietly made a snowball, waited until the traffic light turned green, threw it straight at the driver's window... and then took my hand and calmly walked away.",
+    "de": "Er formte ganz ruhig einen Schneeball, wartete, bis die Ampel grün wurde, warf ihn direkt gegen die Scheibe des Fahrers ... nahm dann meine Hand und ging ganz gelassen mit mir weiter.",
+    "en": "He quietly made a snowball, waited until the traffic light turned green, threw it straight at the driver's window... and then took my hand and calmly walked away.",
+    "zh": "他默默捏了一个雪球，等到红灯变绿，把雪球径直扔向司机的车窗……然后牵起我的手，若无其事地走开了。"
   },
   {
     "id": 13,
-    "de": "Sie ist für die Menschen da, die ihr wichtig sind, und zeigt ihre Zuneigung vor allem in den kleinen Dingen des Alltags.",
-    "en": "She is always there for the people who matter to her, and she shows her affection above all through the little things in everyday life.",
-    "zh": "她总是陪伴着那些对她重要的人，而她的爱意，尤其体现在日常生活中的点点滴滴。"
+    "source": "Apparently, Niklas doesn't believe in confrontation. He believes in creative conflict resolution.",
+    "de": "Offenbar hält Niklas nichts von Konfrontation. Er setzt auf kreative Konfliktlösung.",
+    "en": "Apparently, Niklas doesn't believe in confrontation. He believes in creative conflict resolution.",
+    "zh": "看来，Niklas 不相信正面冲突。他更相信有创意的冲突解决方式。"
   },
   {
     "id": 14,
-    "de": "Ganz egal, in welcher Situation wir uns befinden: Wir können gemeinsam Spaß haben. Selbst wenn etwas nicht nach Plan läuft, finden wir meistens immer noch etwas, worüber wir lachen können.",
-    "en": "No matter what situation we find ourselves in, we can have fun together. Even when something does not go according to plan, we can usually still find something to laugh about.",
-    "zh": "无论身处什么样的情境，我们总能一起找到快乐。即使事情没有按计划进行，我们通常也还是能找到让彼此开怀一笑的地方。",
-    "image": "images/cooking-together.webp",
-    "imagePosition": "40% 35%"
+    "source": "But underneath that calmness is someone I know I can completely rely on when it really matters. Once, we were hiking and only about 500 metres from the summit when my fear of heights completely took over.",
+    "de": "Aber hinter dieser Ruhe steckt jemand, auf den ich mich vollkommen verlassen kann, wenn es wirklich darauf ankommt. Einmal waren wir wandern und nur noch etwa 500 Meter vom Gipfel entfernt, als meine Höhenangst völlig die Kontrolle übernahm.",
+    "en": "But underneath that calmness is someone I know I can completely rely on when it really matters. Once, we were hiking and only about 500 metres from the summit when my fear of heights completely took over.",
+    "zh": "但在这份平静之下，是一个在真正重要的时刻让我完全可以依靠的人。有一次我们去徒步，距离山顶只剩大约五百米时，我的恐高突然彻底占了上风。"
   },
   {
     "id": 15,
-    "de": "Mit Wanrong werden selbst normale Momente zu Erinnerungen, die ich nicht missen möchte.",
-    "en": "With Wanrong, even ordinary moments become memories I would never want to be without.",
-    "zh": "和婉蓉在一起，即使最平凡的时刻，也会变成我不愿失去的珍贵回忆。",
-    "image": "images/cooking-together.webp",
-    "imagePosition": "40% 35%"
+    "source": "Niklas didn't tell me to push through it. He didn't say, \"But we're almost there.\" He simply took my backpack, carried both of our bags, held my hand, and walked me all the way back down.",
+    "de": "Niklas sagte nicht, ich solle mich einfach überwinden. Er sagte auch nicht: „Aber wir sind doch fast da.“ Er nahm einfach meinen Rucksack, trug unser beider Gepäck, hielt meine Hand und ging mit mir den ganzen Weg wieder hinunter.",
+    "en": "Niklas didn't tell me to push through it. He didn't say, \"But we're almost there.\" He simply took my backpack, carried both of our bags, held my hand, and walked me all the way back down.",
+    "zh": "Niklas 没有让我咬牙坚持。他也没有说：“可我们马上就到了。”他只是接过我的背包，一个人背着我们两个人的行李，牵着我的手，陪我一路走回山下。"
   },
   {
     "id": 16,
-    "de": "Wanrong kann sich wunderbar für die unterschiedlichsten Dinge begeistern, besonders sobald irgendwo Tiere auftauchen. Eine Kuh auf einer Wiese, eine Ziege am Straßenrand, und plötzlich ist der Tag ein bisschen besser.",
-    "en": "Wanrong has a wonderful ability to get excited about all kinds of things, especially whenever an animal appears. A cow in a meadow, a goat by the roadside—and suddenly the day is a little better.",
-    "zh": "婉蓉很容易为各种各样的事物感到欣喜，尤其是只要有动物出现的时候。草地上的一头牛，路边的一只山羊，都会让这一天突然变得更美好一些。",
-    "image": "images/cow-hike.webp",
-    "imagePosition": "center"
+    "source": "That's something I love about him. He doesn't make a big show of caring. He pays attention. And when it matters, he acts.",
+    "de": "Genau das liebe ich an ihm. Er macht kein großes Aufheben darum, dass er sich kümmert. Er passt auf. Und wenn es darauf ankommt, handelt er.",
+    "en": "That's something I love about him. He doesn't make a big show of caring. He pays attention. And when it matters, he acts.",
+    "zh": "这正是我爱他的一点。他不会大张旗鼓地表现自己的关心。他会留心观察。而在真正重要的时候，他会付诸行动。"
   },
   {
     "id": 17,
-    "de": "Manchmal reicht dafür auch eine Pusteblume am Wegesrand. Ich liebe diese ehrliche Freude und ihre Fähigkeit, in kleinen Dingen etwas Besonderes zu entdecken.",
-    "en": "Sometimes even a dandelion by the side of the path is enough. I love that genuine joy of hers and her ability to discover something special in the smallest things.",
-    "zh": "有时，路边一朵蒲公英也足以让她开心。我爱她这份真挚的喜悦，也爱她总能从细微之处发现特别之美的能力。",
-    "image": "images/dandelions.webp",
-    "imagePosition": "60% center"
+    "source": "But then there are the much quieter moments. Almost every evening after dinner, we end up on the sofa watching TV. Niklas puts his head on my shoulder and, within minutes, falls asleep.",
+    "de": "Und dann gibt es noch die viel stilleren Momente. Fast jeden Abend landen wir nach dem Essen auf dem Sofa und schauen fern. Niklas legt seinen Kopf auf meine Schulter und schläft innerhalb weniger Minuten ein.",
+    "en": "But then there are the much quieter moments. Almost every evening after dinner, we end up on the sofa watching TV. Niklas puts his head on my shoulder and, within minutes, falls asleep.",
+    "zh": "还有那些更加安静的时刻。几乎每天晚饭后，我们都会窝在沙发上看电视。Niklas 把头靠在我的肩上，不出几分钟就睡着了。"
   },
   {
     "id": 18,
-    "de": "Ein besonderer Moment für mich war unser erster gemeinsamer Urlaub am Königssee. Er war der Anfang von vielen Reisen und Erinnerungen, die uns ein Leben lang begleiten werden.",
-    "en": "One especially meaningful moment for me was our first holiday together at Königssee. It was the beginning of many journeys and memories that will stay with us for a lifetime.",
-    "zh": "对我来说，一个格外特别的时刻，是我们第一次共同旅行去国王湖。那次旅行开启了此后的许多旅程，也留下了将陪伴我们一生的回忆。",
-    "image": "images/koenigssee.webp",
-    "imagePosition": "center",
-    "imageFit": "cover"
+    "source": "For a long time, I thought I was the one who had found safety in him. But in those quiet moments, I realise that perhaps we found it in each other.",
+    "de": "Lange Zeit dachte ich, ich sei diejenige, die in ihm Geborgenheit gefunden hat. Doch in diesen stillen Momenten wird mir klar, dass wir sie vielleicht ineinander gefunden haben.",
+    "en": "For a long time, I thought I was the one who had found safety in him. But in those quiet moments, I realise that perhaps we found it in each other.",
+    "zh": "很长一段时间里，我以为是我在他身上找到了安全感。但在这些安静的时刻，我意识到，也许我们是在彼此身上找到了这份安心。"
   },
   {
     "id": 19,
-    "de": "Danach waren wir am Gardasee und haben deinen Geburtstag in Venedig verbracht. Später sind wir zusammen nach Singapur gereist und anschließend weiter zu deiner Familie nach China.",
-    "en": "After that, we went to Lake Garda and celebrated your birthday in Venice. Later, we travelled to Singapore together and then continued on to visit your family in China.",
-    "zh": "后来，我们去了加尔达湖，还在威尼斯度过了你的生日。再后来，我们一起去了新加坡，随后又前往中国探望你的家人。",
-    "image": "images/venice-canal.webp",
-    "imagePosition": "82% center",
-    "imageFit": "cover"
+    "source": "People sometimes talk about marriage as if one day, you simply look at someone and magically know: \"This is the one.\"",
+    "de": "Manchmal sprechen Menschen über die Ehe, als würde man eines Tages jemanden einfach ansehen und auf magische Weise wissen: „Das ist der eine Mensch.“",
+    "en": "People sometimes talk about marriage as if one day, you simply look at someone and magically know: \"This is the one.\"",
+    "zh": "人们有时谈起婚姻，好像有一天，你只要看着一个人，就会神奇地明白：“就是这个人了。”"
   },
   {
     "id": 20,
-    "de": "Eine Reise wird für mich immer etwas ganz Besonderes bleiben: unser Wochenendtrip nach Paris, bei dem wir uns verlobt haben.",
-    "en": "One journey will always remain especially meaningful to me: our weekend trip to Paris, where we got engaged.",
-    "zh": "有一次旅行对我而言将永远格外特别：那就是我们订婚的巴黎周末之旅。",
-    "image": "images/paris.webp",
-    "imagePosition": "center",
-    "imageFit": "cover"
+    "source": "I'm afraid I'm slightly less romantic than that. I've had five years to observe Niklas very carefully. And after extensive research, I've come to a conclusion: He is excellent husband material.",
+    "de": "Ich fürchte, ich bin da ein bisschen weniger romantisch. Ich hatte fünf Jahre Zeit, Niklas sehr genau zu beobachten. Und nach umfangreichen Nachforschungen bin ich zu einem Ergebnis gekommen: Er ist ausgezeichnetes Ehemann-Material.",
+    "en": "I'm afraid I'm slightly less romantic than that. I've had five years to observe Niklas very carefully. And after extensive research, I've come to a conclusion: He is excellent husband material.",
+    "zh": "恐怕我没有那么浪漫。我用了五年时间非常仔细地观察 Niklas。经过大量研究，我得出了一个结论：他是非常优秀的丈夫人选。"
   },
   {
     "id": 21,
-    "de": "Wenn ich heute daran zurückdenke, sind es nicht zuerst die Orte oder Sehenswürdigkeiten, die mir einfallen. Ich denke an die Momente dazwischen: daran, wie wir gemeinsam etwas Neues entdecken, zusammen lachen und mit Geschichten nach Hause kommen, die nur uns beiden gehören.",
-    "en": "When I look back today, it is not the places or the sights that first come to mind. I think of the moments in between: how we discover something new together, laugh together, and return home with stories that belong only to the two of us.",
-    "zh": "今天回想起来，我最先想到的并不是那些地方或景点，而是旅途中的点滴：我们如何一起发现新鲜事物，一起欢笑，又如何带着只属于我们两个人的故事回到家。"
+    "source": "He is kind, responsible, intelligent, and he knows how to calm me down when my emotions are running high.",
+    "de": "Er ist freundlich, verantwortungsbewusst und intelligent, und er weiß, wie er mich beruhigen kann, wenn meine Gefühle einmal hochkochen.",
+    "en": "He is kind, responsible, intelligent, and he knows how to calm me down when my emotions are running high.",
+    "zh": "他善良、有责任心、聪明，而且当我的情绪激动时，他知道怎样让我平静下来。"
   },
   {
     "id": 22,
-    "de": "Genau diese Momente möchte ich noch oft mit dir erleben. Wanrong, ich denke nicht, dass ich immer die richtigen Worte finden werde. Aber ich verspreche dir: Ich werde dir zuhören, dich ernst nehmen und immer an deiner Seite stehen.",
-    "en": "Those are exactly the moments I want to experience with you many more times. Wanrong, I do not think I will always find the right words. But I promise you this: I will listen to you, take you seriously, and always stand by your side.",
-    "zh": "正是这样的时刻，我希望今后还能与你一同经历很多很多次。婉蓉，我想我未必总能找到最恰当的话语。但我向你承诺：我会倾听你，认真对待你的感受，并永远陪在你身边。"
+    "source": "And most importantly, he has survived several years of me telling him to eat his vegetables, wear sunscreen, exercise more, go to bed earlier, and choose no more than three snacks at the supermarket.",
+    "de": "Und vor allem hat er mehrere Jahre überstanden, in denen ich ihm gesagt habe, er solle sein Gemüse essen, Sonnencreme benutzen, mehr Sport treiben, früher ins Bett gehen und im Supermarkt höchstens drei Snacks auswählen.",
+    "en": "And most importantly, he has survived several years of me telling him to eat his vegetables, wear sunscreen, exercise more, go to bed earlier, and choose no more than three snacks at the supermarket.",
+    "zh": "最重要的是，这些年来我一直提醒他要吃蔬菜、涂防晒霜、多运动、早点睡觉，以及在超市里最多只能选三种零食，而他居然都坚持过来了。"
   },
   {
     "id": 23,
-    "de": "Ich werde mit dir lachen, dich in schwierigen Zeiten festhalten und mich auf alles freuen, was wir noch zusammen erleben, auch wenn das bedeutet, den Feldberg zum elften oder zwölften Mal hochzuwandern.",
-    "en": "I will laugh with you, hold you close through difficult times, and look forward to everything we have yet to experience together—even if that means hiking up the Feldberg for the eleventh or twelfth time.",
-    "zh": "我会与你一同欢笑，在艰难的时候紧紧抱住你，也会期待我们未来共同经历的一切——哪怕这意味着还要第十一次、甚至第十二次爬上费尔德山。"
+    "source": "And somehow, he still wanted to marry me.",
+    "de": "Und irgendwie wollte er mich trotzdem noch heiraten.",
+    "en": "And somehow, he still wanted to marry me.",
+    "zh": "而不知怎么的，他居然还是愿意娶我。"
   },
   {
     "id": 24,
-    "de": "Ich möchte unseren Familien danken: für eure Liebe, Unterstützung und alles, was ihr uns mitgegeben habt.",
-    "en": "I would like to thank our families: for your love, your support, and everything you have given us along the way.",
-    "zh": "我想感谢我们的家人：感谢你们的爱与支持，也感谢你们一路以来给予我们的一切。"
+    "source": "But the truth is, marriage is one of the biggest decisions I will ever make.",
+    "de": "Aber die Wahrheit ist: Die Ehe ist eine der größten Entscheidungen, die ich in meinem Leben treffen werde.",
+    "en": "But the truth is, marriage is one of the biggest decisions I will ever make.",
+    "zh": "但事实是，婚姻是我一生中将要做出的最重大决定之一。"
   },
   {
     "id": 25,
-    "de": "Danke an unsere Freunde und alle, die vorbereitet, mitgedacht, organisiert und vermutlich auch nervöse Nachrichten beantwortet haben. Dieser Tag wäre ohne euch nicht derselbe.",
-    "en": "Thank you to our friends and to everyone who helped prepare, plan, organise, and probably answer a few nervous messages along the way. This day would not be the same without you.",
-    "zh": "也感谢我们的朋友，以及所有参与准备、出谋划策、组织安排，并且大概还回复过不少紧张消息的人。没有你们，今天便不会如此圆满。"
+    "source": "And there is no one I would rather build a family with. And no one I would rather have beside me for all the ordinary days in between.",
+    "de": "Und es gibt niemanden, mit dem ich lieber eine Familie gründen würde. Und niemanden, den ich lieber an meiner Seite hätte – an all den ganz gewöhnlichen Tagen dazwischen.",
+    "en": "And there is no one I would rather build a family with. And no one I would rather have beside me for all the ordinary days in between.",
+    "zh": "没有人比你更适合与我共同建立一个家庭。也没有人比你更适合陪伴我度过其间每一个平凡的日子。"
   },
   {
     "id": 26,
-    "de": "Für unsere Zukunft wünsche ich mir kein vollkommenes Leben. Ich wünsche mir unser Leben: mit spontanen Ideen, ruhigen Sonntagen, neuen Reisen und viel Lachen.",
-    "en": "For our future, I do not wish for a perfect life. I wish for our life: filled with spontaneous ideas, quiet Sundays, new journeys, and plenty of laughter.",
-    "zh": "对于我们的未来，我所期盼的并不是一个完美无缺的人生。我期盼的是属于我们的人生：有突发奇想，有宁静的星期日，有新的旅程，也有许许多多的欢笑。"
+    "source": "I know who you are. I've seen your strengths. I've seen your flaws. I've seen your ten-year-old winter jacket. And knowing all of that, I choose you.",
+    "de": "Ich weiß, wer du bist. Ich kenne deine Stärken. Ich kenne deine Fehler. Ich kenne deine zehn Jahre alte Winterjacke. Und obwohl ich all das weiß, entscheide ich mich für dich.",
+    "en": "I know who you are. I've seen your strengths. I've seen your flaws. I've seen your ten-year-old winter jacket. And knowing all of that, I choose you.",
+    "zh": "我知道你是怎样的人。我看见过你的优点。我也看见过你的缺点。我还见过你那件穿了十年的冬衣。知道这一切之后，我依然选择你。"
   },
   {
     "id": 27,
-    "de": "Vor allem wünsche ich mir kleine Momente, an die wir uns später gerne erinnern. Wanrong, ich bin unglaublich dankbar, dass ich heute dein Ehemann sein darf. Ich liebe dich. Und ich freue mich auf alles, was vor uns liegt.",
-    "en": "Above all, I wish for the little moments that we will look back on fondly one day. Wanrong, I am incredibly grateful that today I get to be your husband. I love you, and I look forward to everything that lies ahead of us.",
-    "zh": "最重要的是，我希望我们会拥有许多细微的时刻，让我们在未来回想起来时依然满心欢喜。婉蓉，我无比感恩，今天能够成为你的丈夫。我爱你，也期待着我们前方的一切。"
+    "source": "爸爸妈妈，还有姐姐， 谢谢你们跨越这么远的距离来到德国，陪我走到人生的这个阶段，也见证我人生中非常重要的一天。",
+    "de": "Mama, Papa und meine Schwester, danke, dass ihr diese weite Reise nach Deutschland auf euch genommen habt, mich bis zu diesem Abschnitt meines Lebens begleitet und diesen so wichtigen Tag mit mir erlebt.",
+    "en": "Mum, Dad, and my sister, thank you for travelling such a long way to Germany, for accompanying me to this stage of my life, and for witnessing such an important day for me.",
+    "zh": "爸爸妈妈，还有姐姐，谢谢你们跨越这么远的距离来到德国，陪我走到人生的这个阶段，也见证我人生中非常重要的一天。"
   },
   {
     "id": 28,
-    "de": "Lasst uns gemeinsam das Glas erheben: auf die Liebe, auf unsere Familien und Freunde – und auf unser gemeinsames Leben. Auf uns!",
-    "en": "Let us raise our glasses together: to love, to our families and friends—and to the life we will share. To us!",
-    "zh": "让我们共同举杯：敬爱情，敬我们的家人与朋友，也敬我们携手共度的人生。敬我们！"
+    "source": "从我离开家，来到德国，到今天在这里结婚，我的人生已经走了很远。",
+    "de": "Seit ich mein Zuhause verlassen habe und nach Deutschland gekommen bin, bis zu meiner Hochzeit hier und heute, hat mein Leben einen weiten Weg zurückgelegt.",
+    "en": "From leaving home and coming to Germany to getting married here today, my life has come a very long way.",
+    "zh": "从我离开家，来到德国，到今天在这里结婚，我的人生已经走了很远。"
+  },
+  {
+    "id": 29,
+    "source": "虽然我们平时隔着很远的距离，但我一直知道，无论我走到哪里，你们永远都是我的家人，也是我最坚实的后盾。",
+    "de": "Auch wenn uns im Alltag eine große Entfernung trennt, wusste ich immer: Egal, wohin ich gehe, ihr seid für immer meine Familie und mein stärkster Rückhalt.",
+    "en": "Although we usually live far apart, I have always known that wherever I go, you will always be my family and my strongest support.",
+    "zh": "虽然我们平时隔着很远的距离，但我一直知道，无论我走到哪里，你们永远都是我的家人，也是我最坚实的后盾。"
+  },
+  {
+    "id": 30,
+    "source": "今天看到你们坐在这里，对我来说真的很重要。 谢谢你们一直以来对我的爱，也谢谢你们来到这里，陪我一起走进人生新的阶段。",
+    "de": "Euch heute hier sitzen zu sehen, bedeutet mir wirklich sehr viel. Danke für all eure Liebe und dafür, dass ihr hierhergekommen seid, um mich in diesen neuen Abschnitt meines Lebens zu begleiten.",
+    "en": "Seeing you sitting here today means so much to me. Thank you for all the love you have always given me, and thank you for coming here to accompany me into this new stage of my life.",
+    "zh": "今天看到你们坐在这里，对我来说真的很重要。谢谢你们一直以来对我的爱，也谢谢你们来到这里，陪我一起走进人生新的阶段。"
+  },
+  {
+    "id": 31,
+    "source": "Liebe Claudia, lieber Rene, ich möchte euch beiden Danke sagen. Danke, dass ihr einen so wunderbaren Mann großgezogen habt.",
+    "de": "Liebe Claudia, lieber Rene, ich möchte euch beiden Danke sagen. Danke, dass ihr einen so wunderbaren Mann großgezogen habt.",
+    "en": "Dear Claudia, dear Rene, I would like to thank you both. Thank you for raising such a wonderful man.",
+    "zh": "亲爱的 Claudia，亲爱的 Rene，我想对你们两位说声谢谢。谢谢你们培养出了这样一位优秀的男人。"
+  },
+  {
+    "id": 32,
+    "source": "Von seiner Mama hat Niklas seine Geduld, seine Herzlichkeit und seinen Optimismus. Und von seinem Papa hat er seinen Humor, seine Ehrlichkeit und sein Verantwortungsbewusstsein.",
+    "de": "Von seiner Mama hat Niklas seine Geduld, seine Herzlichkeit und seinen Optimismus. Und von seinem Papa hat er seinen Humor, seine Ehrlichkeit und sein Verantwortungsbewusstsein.",
+    "en": "From his mum, Niklas inherited his patience, warmth, and optimism. And from his dad, he inherited his humour, honesty, and sense of responsibility.",
+    "zh": "Niklas 从妈妈那里继承了耐心、热情和乐观；从爸爸那里继承了幽默、诚实和责任感。"
+  },
+  {
+    "id": 33,
+    "source": "Ich sage nicht, dass er perfekt ist. Und unser Niklas sollte definitiv mehr Gemüse essen. Aber im Ernst: Ihr habt als Eltern wirklich einen großartigen Job gemacht. Danke.",
+    "de": "Ich sage nicht, dass er perfekt ist. Und unser Niklas sollte definitiv mehr Gemüse essen. Aber im Ernst: Ihr habt als Eltern wirklich einen großartigen Job gemacht. Danke.",
+    "en": "I'm not saying that he is perfect. And our Niklas should definitely eat more vegetables. But seriously: as parents, you really did a wonderful job. Thank you.",
+    "zh": "我并不是说他完美无缺。我们家的 Niklas 确实应该多吃一点蔬菜。不过说真的，你们作为父母，真的把他培养得非常好。谢谢你们。"
+  },
+  {
+    "id": 34,
+    "source": "And finally, to everyone here tonight: Thank you for travelling all this way, for celebrating with us, and for bringing so many different parts of our lives together in one room.",
+    "de": "Und zum Schluss an alle, die heute Abend hier sind: Danke, dass ihr diese weite Reise auf euch genommen habt, mit uns feiert und so viele verschiedene Teile unseres Lebens in einem Raum zusammenbringt.",
+    "en": "And finally, to everyone here tonight: Thank you for travelling all this way, for celebrating with us, and for bringing so many different parts of our lives together in one room.",
+    "zh": "最后，我想对今晚在场的每一个人说：谢谢你们远道而来，与我们共同庆祝，也让我们生命中如此多不同的部分汇聚在同一个房间里。"
+  },
+  {
+    "id": 35,
+    "source": "We may not all speak the same language. But tonight, I don't think we really need to.",
+    "de": "Vielleicht sprechen wir nicht alle dieselbe Sprache. Aber ich glaube, heute Abend brauchen wir das auch gar nicht.",
+    "en": "We may not all speak the same language. But tonight, I don't think we really need to.",
+    "zh": "也许我们并不都说同一种语言。但今晚，我觉得我们其实不需要。"
+  },
+  {
+    "id": 36,
+    "source": "And Niklas... Wherever life takes us next, there are just a few things I need you to remember:",
+    "de": "Und Niklas ... Wohin das Leben uns als Nächstes auch führt, es gibt nur ein paar Dinge, an die du dich erinnern musst:",
+    "en": "And Niklas... Wherever life takes us next, there are just a few things I need you to remember:",
+    "zh": "还有 Niklas……无论接下来生活把我们带向哪里，有几件事你一定要记住："
+  },
+  {
+    "id": 37,
+    "source": "Eat your vegetables. Wear sunscreen. And,of course ... Happy wife, happy life.",
+    "de": "Iss dein Gemüse. Benutze Sonnencreme. Und natürlich ... glückliche Frau, glückliches Leben.",
+    "en": "Eat your vegetables. Wear sunscreen. And, of course... Happy wife, happy life.",
+    "zh": "要吃蔬菜。要涂防晒霜。当然还有……老婆开心，生活顺心。"
+  },
+  {
+    "id": 38,
+    "source": "Cheers!",
+    "de": "Zum Wohl!",
+    "en": "Cheers!",
+    "zh": "干杯！"
   }
 ]

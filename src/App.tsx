@@ -1,9 +1,11 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import QRCode from 'qrcode';
-import speech from './speech.json';
+import speechData from './speech.json';
 import type { ConnectionStatus, LiveState, RealtimeService } from './services/types';
 
 type Language = 'de' | 'en' | 'zh';
+type SpeechSection = { id: number; de: string; en: string; zh: string; source?: string; image?: string; imagePosition?: string; imageFit?: 'cover' | 'contain' };
+const speech = speechData as SpeechSection[];
 type Props = { service: RealtimeService; initialPath?: string; initialLanguage?: Language };
 const LAST_STATE: LiveState = { currentSection: 0, updatedAt: 0 };
 const clamp = (value: number) => Math.max(0, Math.min(speech.length, value));
@@ -99,7 +101,7 @@ function Login({ service, onSuccess }: { service: RealtimeService; onSuccess: ()
 }
 
 function PresenterView({ service }: { service: RealtimeService }) {
-  const { state, status } = useLiveState(service); const [authenticated, setAuthenticated] = useState(service.isAuthenticated()); const [writeError, setWriteError] = useState(''); const [presenterLanguage, setPresenterLanguage] = useState<Language>('de');
+  const { state, status } = useLiveState(service); const [authenticated, setAuthenticated] = useState(service.isAuthenticated()); const [writeError, setWriteError] = useState(''); const [presenterLanguage, setPresenterLanguage] = useState<Language>('en');
   useEffect(() => service.subscribeAuth(setAuthenticated), [service]);
   const move = useCallback(async (target: number) => { setWriteError(''); try { await service.setCurrentSection(clamp(target)); } catch { setWriteError('Update fehlgeschlagen. Verbindung prüfen.'); } }, [service]);
   useEffect(() => {

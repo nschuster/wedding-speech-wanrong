@@ -1,10 +1,16 @@
 import { describe, expect, it } from 'vitest';
 import speech from './speech.json';
+import canonicalSource from './speech-source.txt?raw';
 
-describe('speech content', () => {
-  it('contains the complete 28-section wedding speech in all three languages', () => {
-    expect(speech).toHaveLength(28);
+const normalize = (value: string) => value.replace(/\s+/g, ' ').trim();
 
+describe('Wanrong speech content', () => {
+  it('preserves the supplied speech exactly across 38 natural sections', () => {
+    expect(speech).toHaveLength(38);
+    expect(normalize(speech.map(section => section.source).join(' '))).toBe(normalize(canonicalSource));
+  });
+
+  it('contains aligned German, English, and Chinese text for every section', () => {
     speech.forEach((section, index) => {
       expect(section.id).toBe(index + 1);
       expect(section.de.trim()).not.toBe('');
@@ -12,43 +18,17 @@ describe('speech content', () => {
       expect(section.zh.trim()).not.toBe('');
     });
 
-    expect(speech[0].de).toBe('Liebe Familie, liebe Freunde, liebe Gäste,');
-    expect(speech[27].de).toContain('Auf uns!');
-    expect(speech.map(section => section.de).join(' ')).toContain('unser Wochenendtrip nach Paris, bei dem wir uns verlobt haben');
-    expect(speech.map(section => section.de).join(' ')).toContain('den Feldberg zum elften oder zwölften Mal hochzuwandern');
+    expect(speech[0].en).toContain('Good evening, everyone.');
+    expect(speech[0].de).toContain('Guten Abend zusammen.');
+    expect(speech[0].zh).toContain('大家晚上好');
+    expect(speech[26].zh).toContain('爸爸妈妈，还有姐姐');
+    expect(speech[30].de).toContain('Liebe Claudia, lieber Rene');
+    expect(speech[37].en).toBe('Cheers!');
+    expect(speech[37].de).toBe('Zum Wohl!');
+    expect(speech[37].zh).toBe('干杯！');
   });
 
-  it('allows selected sections to declare optional background images', () => {
-    expect(speech[13]).toMatchObject({
-      image: 'images/cooking-together.webp',
-      imagePosition: '40% 35%'
-    });
-    expect(speech[14]).toMatchObject({
-      image: 'images/cooking-together.webp',
-      imagePosition: '40% 35%'
-    });
-    expect(speech[15]).toMatchObject({
-      image: 'images/cow-hike.webp',
-      imagePosition: 'center'
-    });
-    expect(speech[16]).toMatchObject({
-      image: 'images/dandelions.webp',
-      imagePosition: '60% center'
-    });
-    expect(speech[17]).toMatchObject({
-      image: 'images/koenigssee.webp',
-      imagePosition: 'center',
-      imageFit: 'cover'
-    });
-    expect(speech[18]).toMatchObject({
-      image: 'images/venice-canal.webp',
-      imagePosition: '82% center',
-      imageFit: 'cover'
-    });
-    expect(speech[19]).toMatchObject({
-      image: 'images/paris.webp',
-      imagePosition: 'center',
-      imageFit: 'cover'
-    });
+  it('does not reuse groom-speech photos for Wanrong’s speech', () => {
+    speech.forEach(section => expect(section).not.toHaveProperty('image'));
   });
 });
