@@ -1,6 +1,7 @@
 import type { ConnectionStatus, LiveState, RealtimeService, Unsubscribe } from './types';
 import { parseLiveState } from './state';
-const KEY = 'wedding-speech-wanrong-demo-state';
+import { LIVE_PATH } from './config';
+const KEY = `wedding-speech-demo-state:${LIVE_PATH}`;
 export class LocalRealtimeService implements RealtimeService {
   private authenticated = true;
   private read(): LiveState {

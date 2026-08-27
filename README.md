@@ -42,16 +42,20 @@ firebase deploy --only database
 7. In Realtime Database, create this initial data (or sign in to Presenter and choose **Welcome** from the Jump menu):
 
 ```json
-{"live":{"currentSection":0,"updatedAt":0}}
+{"speeches":{"wanrong":{"live":{"currentSection":0,"updatedAt":0}}}}
 ```
 
 ### Data model
 
 ```json
 {
-  "live": {
-    "currentSection": 0,
-    "updatedAt": 1787688000000
+  "speeches": {
+    "wanrong": {
+      "live": {
+        "currentSection": 0,
+        "updatedAt": 1787688000000
+      }
+    }
   }
 }
 ```
@@ -68,6 +72,7 @@ VITE_FIREBASE_AUTH_DOMAIN=your-project.firebaseapp.com
 VITE_FIREBASE_DATABASE_URL=https://your-project-default-rtdb.europe-west1.firebasedatabase.app
 VITE_FIREBASE_PROJECT_ID=your-project
 VITE_FIREBASE_APP_ID=...
+VITE_FIREBASE_LIVE_PATH=speeches/wanrong/live
 VITE_DEMO_MODE=false
 VITE_BASE_PATH=/
 ```
@@ -80,7 +85,7 @@ Firebase web configuration is not a server secret; authorization is enforced by 
 
 The included rules provide:
 
-- public read access to only `/live`, required for guests without accounts;
+- public read access to only `/speeches/wanrong/live`, required for guests without accounts;
 - write access only to an authenticated Firebase user whose verified token email matches the presenter email in `database.rules.json`;
 - integer/range shape validation and rejection of unknown fields;
 - default denial for every other database path.
@@ -122,7 +127,8 @@ npm run test:e2e
    - `VITE_FIREBASE_DATABASE_URL`
    - `VITE_FIREBASE_PROJECT_ID`
    - `VITE_FIREBASE_APP_ID`
-4. Push to `main` or run **Test and deploy GitHub Pages** manually.
+4. Add the repository variable `VITE_FIREBASE_LIVE_PATH=speeches/wanrong/live`.
+5. Push to `main` or run **Test and deploy GitHub Pages** manually.
 
 The workflow validates Firebase configuration, runs unit and desktop/mobile browser tests, builds both entry pages, uploads `dist`, and deploys it. It automatically sets `VITE_BASE_PATH` to `/REPOSITORY_NAME/`.
 

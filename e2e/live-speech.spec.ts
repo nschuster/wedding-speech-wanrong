@@ -11,9 +11,11 @@ test('German, English and Chinese guests follow presenter and reconnect to curre
   await presenter.keyboard.press('ArrowRight');
   await expect(german.getByText(/Liebe Familie, liebe Freunde/i)).toBeVisible(); await expect(english.getByText(/Dear family, dear friends/i)).toBeVisible(); await expect(chinese.getByText(/亲爱的家人、朋友们/)).toBeVisible();
   await english.close();
-  await presenter.keyboard.press('ArrowRight'); await presenter.keyboard.press('ArrowRight');
+  await presenter.getByRole('combobox', { name: /Jump to section/i }).selectOption('3');
+  await expect(german.locator('.progress')).toHaveAttribute('aria-label', 'Section 3 of 28');
   const reconnected = await context.newPage(); await reconnected.goto('/?lang=en');
-  await expect(reconnected.getByText(/quite nervous about giving this speech/i)).toBeVisible();
+  await expect(reconnected.getByRole('status')).toHaveText(/Connected/, { timeout: 30000 });
+  await expect(reconnected.getByText(/quite nervous about giving this speech/i)).toBeVisible({ timeout: 30000 });
   await context.close();
 });
 

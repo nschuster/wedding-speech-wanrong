@@ -3,8 +3,9 @@ import { getAuth, onAuthStateChanged, signInWithEmailAndPassword, signOut as fir
 import { getDatabase, onValue, ref, set, serverTimestamp } from 'firebase/database';
 import type { ConnectionStatus, LiveState, RealtimeService, Unsubscribe } from './types';
 import { parseLiveState } from './state';
+import { LIVE_PATH, liveStateStorageKey } from './config';
 
-const LAST_STATE_KEY = 'wedding-speech-wanrong-last-state';
+const LAST_STATE_KEY = liveStateStorageKey(LIVE_PATH);
 export class FirebaseRealtimeService implements RealtimeService {
   private auth;
   private database;
@@ -31,7 +32,7 @@ export class FirebaseRealtimeService implements RealtimeService {
       } catch { localStorage.removeItem(LAST_STATE_KEY); }
     }
     const listenerFailed = () => onStatus(navigator.onLine ? 'reconnecting' : 'offline');
-    const stopState = onValue(ref(this.database, 'live'), snapshot => {
+    const stopState = onValue(ref(this.database, LIVE_PATH), snapshot => {
       const value = parseLiveState(snapshot.val());
       if (value) { onState(value); localStorage.setItem(LAST_STATE_KEY, JSON.stringify(value)); }
     }, listenerFailed);
@@ -44,7 +45,7 @@ export class FirebaseRealtimeService implements RealtimeService {
     window.addEventListener('online', online); window.addEventListener('offline', offline);
     return () => { stopState(); stopConnection(); window.removeEventListener('online', online); window.removeEventListener('offline', offline); };
   }
-  async setCurrentSection(currentSection: number) { await set(ref(this.database, 'live'), { currentSection, updatedAt: serverTimestamp() }); }
+  async setCurrentSection(currentSection: number) { await set(ref(this.database, LIVE_PATH), { currentSection, updatedAt: serverTimestamp() }); }
   async signIn(email: string, password: string) { await signInWithEmailAndPassword(this.auth, email, password); this.authenticated = true; }
   async signOut() { await firebaseSignOut(this.auth); this.authenticated = false; }
   isAuthenticated() { return this.authenticated || Boolean(this.auth.currentUser); }

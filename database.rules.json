@@ -8,6 +8,19 @@
       "updatedAt": { ".validate": "newData.isNumber()" },
       "$other": { ".validate": false }
     },
+    "speeches": {
+      "$speech": {
+        "live": {
+          ".read": "$speech == 'niklas' || $speech == 'wanrong'",
+          ".write": "($speech == 'niklas' || $speech == 'wanrong') && auth != null && auth.token.email == 'niklas.schuster@zoho.com'",
+          ".validate": "newData.hasChildren(['currentSection', 'updatedAt'])",
+          "currentSection": { ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() % 1 == 0" },
+          "updatedAt": { ".validate": "newData.isNumber()" },
+          "$other": { ".validate": false }
+        },
+        "$other": { ".read": false, ".write": false }
+      }
+    },
     "$other": { ".read": false, ".write": false }
   }
 }
