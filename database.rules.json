@@ -1,13 +1,5 @@
 {
   "rules": {
-    "live": {
-      ".read": true,
-      ".write": "auth != null && auth.token.email == 'niklas.schuster@zoho.com'",
-      ".validate": "newData.hasChildren(['currentSection', 'updatedAt'])",
-      "currentSection": { ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() % 1 == 0" },
-      "updatedAt": { ".validate": "newData.isNumber()" },
-      "$other": { ".validate": false }
-    },
     "speeches": {
       "$speech": {
         "live": {
