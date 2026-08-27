@@ -37,6 +37,8 @@ jobs:
       - name: Install browser for end-to-end tests
         run: npx playwright install --with-deps chromium
       - name: Run desktop and mobile synchronization tests
+        env:
+          VITE_FIREBASE_LIVE_PATH: ${{ vars.VITE_FIREBASE_LIVE_PATH }}
         run: npm run test:e2e
       - name: Build
         run: npm run build
